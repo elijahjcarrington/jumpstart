@@ -1,0 +1,137 @@
+/*Global*/
+
+html, body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  background: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+  background: green;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: gray;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+p, a, ol, ul, li {
+  color: gray;
+}
+
+
+/*Header*/
+
+header {
+  margin: 0 auto;
+  background: white;
+  z-index: 100;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+header .col-left {
+  flex: 1 auto;
+  display: flex;
+  align-items: center;
+}
+
+header .col-right {
+  flex: 0 200px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+header nav ul {
+  display: inline-flex;
+}
+
+header nav ul li {
+}
+
+header nav ul li a {
+  text-decoration: none;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+header nav ul li a:active, header nav ul li a:hover {
+  color: #399bd1;
+}
+
+header .logo {
+  width: 100px;
+  height: auto;
+  margin-top: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  header nav ul {
+    display: block;
+    padding-top: 2.25rem;
+  }
+  header nav ul li {
+    padding-top: 0.5rem;
+  }
+}
+
+/*Global*/
+
+
+/*Global*/
+
+
+/*Global*/
+
+
+/*Global*/
+
+
+/*Global*/
+
+
+/*Global*/
+
+
+/*Global*/
